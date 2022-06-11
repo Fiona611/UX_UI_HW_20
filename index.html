@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UX/UI Homework 20</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation section, using the bootstrap nav component -->
+        <header>
+            <div class="inline-block logo">
+                <img src="images/logo.png" alt="Logo" id="logo">
+            </div>
+            <div>
+                <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">UX Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Graphic Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </header>
+
+        <section class="introSection">
+          <div class="jumbotron">
+            <h1 class="display-4" id="hero-main">Spectrum Works</h1>
+            <p class="lead" id="hero-sub">Responsive Website Redesign</p>
+            <img src="images/hero_image.png" class="img-fluid" id="hero-img" alt="Hero Image">
+          </div>
+        </section>
+
+        <section class="overviewSection">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <p class="lead" id="overview-main">Overview</p>
+              <hr class="my-4">
+              <p id="overview-text">Spectrum Works main purpose is to connect employers and recruiters with autistic job seekers in a job fair format and break the stigma stigmas associated with autistic individuals contributing to the Canadian workforce.<br>
+                <br>The organization’s main challenge was not being successful with online event registrations for recruiters. <br>
+                <br>The desktop and mobile versions of their website were not responsive causing design and layout issues. Visitors left the site without registering because relevant event information was not easy to find or non-existent.<br></p>
+            </div>
+          </div>
+          <div class="flex-container">
+            <div class="flex-child">
+              <p id="overview-list">Timeline<br></p>
+              <p id="overview-text"><br>3 weeks (April 2022)</p>
+            </div>
+            <div class="flex-child">
+              <p id="overview-list">My Role<br></p>
+              <p id="overview-text"><br>UX/UI Designer<br>
+                  UX Researcher<br></p>
+            </div>
+            <div class="flex-child">
+              <p id="overview-list">Tools<br></p>
+              <p id="overview-text"><br>Adobe XD<br>
+                  Adobe Illustrator<br>
+                  Adobe Photoshop<br></p>
+            </div>
+          </div>
+          <div class="container">
+          <div class="jumbotron jumbotron-fluid" id="jumboblue">
+              <p class="lead" id="white-text">“How might we improve the layout of information for employers to navigate the site and feel confident about registering for the job fair?”</p>
+          </div>
+          </div>
+        </section>
+
+        <section class="researchSection">
+          <div class="container">
+            <p class="lead" id="overview-main">01 Research</p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Proto Persona<br></p>
+                <p id="overview-text">I created a proto-persona for Janice Brown, a 27 year old HR recruiter for Canadian Tire. 
+                  She is looking to improve inclusivity and diversity in the labor force. 
+                  She is interested in an opportunity to connect with autistic job seekers and has a goal to hire full 
+                  and part time workers in the immediate future.</p>
+              </div>
+              <div class="col-4">
+                <img src="images/user persona.png" alt="persona">
+              </div>
+            </div>
+          </div>
+          <div class="container" id="issuesSection">
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Issues with the old website<br></p>
+                <p id="overview-text">I began with analyzing SpectrumWorks’ current website, which was created on one of Wordpress template options. 
+                  After writing down all my observations, I translated the main issues into insights that would help inform the final design.<br><br>
+                  Click <u>here</u> to check the whole website<br></p>
+                  <ul class="overview-list">
+                    <li>There is no structure or hierarchy of what is the most important to the least important element of this entire website.</li>
+                    <li>The CTA button sizes are inconsistent, as well as the typography. It’s not clear what action the user should take.</li>
+                    <li>The menu navigation should be located above all the content of this page.</li>
+                    <li>The site is a single homepage with all the content for this event.</li>
+                    <li>This English and French websites should be separated.</li>
+                    <li>There is no footer.</li>
+                  </ul>
+              </div>
+              <div class="col-4">
+                <img src="images/current_website.png" alt="current website">
+              </div>
+            </div>
+          </div>
+          <div class="container" id="surveySection">
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Online Survey & One-on-one Interview<br></p>
+                <p id="overview-text">For gathering how potential users impression of the current website, I did an online survey and conducted 3 online interviews.</p>
+              </div>
+            </div>
+            <div class="row" id="interviewRow">
+              <div class="col-4">
+                <p id="overview-list">What was your first impression?</p>
+                <img src="images/survey_1.png" alt="survey1">
+              </div>
+              <div class="col-4">
+                <p id="overview-list">Imagine you are an HR Manager tasked with registering for a virtual job fair. What would you need to see on this website?</p>
+                <img src="images/survey_2.png" alt="survey2">
+              </div>
+            </div>
+            <div class="row" id="interviewRow">
+              <div class="col-4">
+                <p id="overview-list">What device did you use tolook at spectrumworks.ca?</p>
+                <img src="images/survey_3.png" alt="survey3">
+              </div>
+              <div class="col-4">
+                <p id="overview-list">Were you able to find the social media icons?</p>
+                <img src="images/survey_4.png" alt="survey4">
+              </div>
+              <div class="col-4">
+                <p id="overview-list">For past events information what would you like to see?</p>
+                <img src="images/survey_5.png" alt="survey5">
+              </div>
+            </div>
+            <div class="row" id="interviewRow">
+              <div class="col-8">
+                <p id="overview-text">From the 11 online responses and interviews, the first impression of the website was that people liked that 
+                  a site like this exists and felt It’s a good cause. However, the one page website was ugly, busy, overwhelming, cluttered, had 
+                  too many pictures on one page and not a lot of content. The  information was not laid out well. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ideationSection">
+          <div class="container">
+            <p class="lead" id="overview-main">02 Definition & Ideation</p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Empathy Map<br></p>
+                <p id="overview-text">As part of the design thinking process I created an empathy map to explore what Janice may be saying, doing, thinking, and feeling. What are her pains and what would be her measure of success?</p>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <img src="images/empathy map.png" alt="Persona Image" id="empathyMap">
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col">
+                <div class="center">
+                  <p id="overview-list">Says</p>
+                </div>
+                <ul class="overview-list">
+                  <li>With my screen resolution I don't see the nav.</li>
+                  <li>So if I was working with a team on this, it would be who's your audience? 
+                    What do you want them to do? And what are your objectives? Because I don't believe this site is set up for the audience.</li>
+                  <li>Don't know what is “what/who” section for</li>
+                  <li>I think the key information is spectrum works. Virtual Job Fair for artistic job seekers, you know that's what I want to see immediately. </li>
+                </ul>
+              </div>
+              <div class="col">
+                <div class="center">
+                  <p id="overview-list">Feels</p>
+                </div>
+                <ul class="overview-list">
+                  <li>This is a great cause but the website needs some serious redesigning.</li>
+                  <li>It's nice to know this is Canadian made.</li>
+                  <li>I don't fully understand what I'm signing up for. I con't have all full picture or enough details.</li>
+                  <li>I don't like to be surprised by fees.</li>
+                  <li>What are you trying to impress me with? Like, what what am I really supposed to be looking at?</li>
+                </ul>
+              </div>
+            </div>  
+            <div class="row justify-content-md-center">
+              <div class="col">
+                <div class="center">
+                  <p id="overview-list">Thinks</p>
+                </div>
+                <ul class="overview-list">
+                  <li>There should be a FAQ section.</li>
+                  <li>Hiring people with autism will bring diversity to our workplace.</li>
+                  <li>There's probably a better way of laying out the French and English.</li>
+                  <li>How do I know if I am reading a new section of content?</li>
+                </ul>
+              </div>
+              <div class="col">
+                <div class="center">
+                  <p id="overview-list">Does</p>
+                </div>
+                <ul class="overview-list">
+                  <li>Read statistics about the event.</li>
+                  <li>Searching for the registration button.</li>
+                  <li>Learn what Spectrum Works is about.</li>
+                  <li>Empathize for the cause.</li>
+                  <li>Looking for the key info of the virtual event.</li>
+                </ul>
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Priority<br></p>
+                <p id="overview-text">I synthesized these insights and feedback down to prioritizing core problems with the interface and design of the site.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="jumbotron jumbotron-fluid" id="jumboblue">
+                <p id="white-text">Prioritized Feature List</p>
+                <ul class="white-list">
+                  <li>Organize and display key event information.</li>
+                  <li>Clear call to action and reasons to register.</li>
+                  <li>Break down information into bite sized pieces.</li>
+                  <li>Ability to download event brochure to share for quick internal approval.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">User Journey<br></p>
+                <p id="overview-text">I synthesized these insights and feedback down to prioritizing core problems with the interface and design of the site. Here are the key features to focus on:</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-list">UX Scenario<br></p>
+                <p id="overview-text">Janice wants to recruit special needs job seekers and finds out about the Spectrum Works virtual job fair she wants information and register for the event.</p> 
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-list">Goal<br></p>
+                <p id="overview-text">Wants to meet inclusivity and diversity goals by attending a job fair with special needs job seekers.</p> 
+              </div>
+            </div>
+            <div class="row">
+              <div id="legend">
+                <img src="images/legends.png" alt="legends" id="legendImg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="images/journey_1.png" alt="Journey1" id="journey">
+              </div>
+              <div class="col">
+                <img src="images/journey_2.png" alt="journey2" id="journey">
+              </div>
+              <div class="col">
+                <img src="images/journey_3.png" alt="journey3" id="journey">
+              </div>
+              <div class="col">
+                <img src="images/journey_4.png" alt="journey4" id="journey">
+              </div>
+              <div class="col">
+                <img src="images/journey_5.png" alt="journey5" id="journey">
+              </div>
+              <div class="col">
+                <img src="images/journey_6.png" alt="journey6" id="journey">
+              </div>
+            </div>
+            <div class="row" id="jumboRow">
+              <div class="jumbotron jumbotron-fluid" id="jumboblue">
+                <p id="white-text">Opportunities</p>
+                <ul class="white-list">
+                  <li>The site needs to be organized with clear instructions. 
+                    the look and feel should be simple and minimal. The scale (across Canada) of the event should be evident.</li>
+                  <li>Date / time and key highlights needs prominence. The value of attending should be clear.</li>
+                  <li>Technical requirements and associated registration fees needs to be clearly explained before registration.</li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>   
+        </section>
+
+
+
+        <section class="prototypeSection">
+          <div class="container">
+            <p class="lead" id="overview-main">03 Prototype & Design</p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Sketch • Wireframes</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="images/hand_sketch.png" alt="hand sketch">
+            </div>
+            <div class="row justify-content-md-center">
+              <img src="images/sketch_Homepage.png" alt="sketch homepage" id="sketchHome">
+              <img src="images/Sketch_Drop Down.png" alt="sketch dropdown" id="sketchDropDown">
+              <img src="images/sketch_Desktop.png" alt="sketch desktop" id="sketchDesktop">
+            </div>
+            <div class="row">
+              <div class="col-8">
+                <p id="overview-main">Hi-Fi Design</p>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <img src="images/Desktop_home.png" alt="designOne" id="designOne">
+              <img src="images/Desktop Home page.png" alt="designTwo" id="designOne">
+              <img src="images/Mobile dsign_1.png" alt="designThree" id="designTwo">
+              <img src="images/Mobile dsign_2.png" alt="designFour" id="designTwo">
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <ul class="nav justify-content-center">
+              <li class="nav-item" id="footerlist">
+                <a class="nav-link active" href="#" id="nav-text">Instagram</a>
+              </li>
+              <li class="nav-item" id="footerlist">
+                <a class="nav-link active" href="#" id="nav-text">Linkedin</a>
+              </li>
+              <li class="nav-item" id="footerlist">
+                <a class="nav-link active" href="#" id="nav-text">Resumes</a>
+              </li>
+          </ul>
+        </footer>
+    </body>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,136 @@
+#hero-img{
+    padding-left: 100px;
+}
+
+#logo{
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+#hero-sub{
+    padding-left: 100px;
+    color: #736357;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero-main{
+    padding-left: 100px;
+    color: #6488FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#overview-main{
+    padding-top: 30px;
+    color: #6488FF;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+#overview-text{
+    color: #736357;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#overview-list{
+    color: #736357;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+}
+
+#jumboblue{
+    background-color:#6488FF;
+    padding-top: 10px;
+}
+
+#jumboRow{
+    padding-top:20px;
+}
+
+#white-text{
+    color:white;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.flex-container{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.flex-child{
+    flex: 1;
+    padding: 2px;
+}
+
+.overview-list{
+    color: #736357;
+    font-family: 'Comfortaa', sans-serif;   
+}
+
+.white-list{
+    color:white;
+    font-family: 'Comfortaa', sans-serif; 
+}
+
+#issuesSection{
+    padding-top: 30px;
+}
+
+#surveySection{
+    padding-top:30px;
+}
+
+#interviewRow{
+    padding-top: 20px;
+}
+
+#sketchHome{
+    width:100%;
+    max-width:110px;
+}
+
+#sketchDropDown{
+    width:100%;
+    max-width:110px;
+}
+
+#sketchDesktop{
+    width:100%;
+    max-width: 360px;
+}
+
+#designOne{
+    width:100%;
+    max-width: 470px;
+}
+
+#designTwo{
+    width:100%;
+    max-width: 110px;
+}
+
+#empathyMap{
+    width:100%;
+    max-width: 200px;
+}
+
+#legendImg{
+    width:100%;
+    max-width: 150px;
+}
+
+#journey{
+    width:100%;
+    max-width: 250px;
+}
+
+.center{
+    text-align: center;
+}
+
+#legend{
+    text-align: right;
+}
